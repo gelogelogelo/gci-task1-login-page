@@ -24,7 +24,7 @@ label {
 input[type="text"],
 input[type="password"] {
   width: 100%;
-  height: 35px;
+  height: 40px;
 }
 ::placeholder {
   padding: 10px;
@@ -43,7 +43,7 @@ input[type="password"] {
 
 .login-left {
   background: #486cec;
-  width: 60%;
+  width: 50%;
   height: 100%;
 }
 .img-fluid {
@@ -52,7 +52,8 @@ input[type="password"] {
 }
 .login-right {
   text-align: left;
-  width: 40%;
+  width: 50%;
+  padding: 30px;
 }
 .login-right h3,
 .login-right h4 {
