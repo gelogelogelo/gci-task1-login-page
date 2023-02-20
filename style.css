@@ -30,6 +30,12 @@ input[type="password"] {
   padding: 10px;
 }
 
+#error {
+  background: #daf7a6;
+  padding: 10px;
+  text-align: center;
+}
+
 .login-container {
   width: 80%;
   height: 70%;
@@ -60,6 +66,7 @@ input[type="password"] {
   .login-left {
     display: none;
   }
+
   .login-right {
     width: 100%;
   }
