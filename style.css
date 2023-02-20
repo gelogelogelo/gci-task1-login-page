@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-body {
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 35px;
+}
+::placeholder {
+  padding: 10px;
+}
+
+.login-container {
+  width: 80%;
+  height: 70%;
+}
+
+.login-left {
+  background: #486cec;
+  width: 60%;
+  height: 100%;
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+.login-right {
+  text-align: left;
+  width: 40%;
+}
+.login-right h3,
+.login-right h4 {
+  text-align: center;
+}
+.submit {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-left {
+    display: none;
+  }
+  .login-right {
+    width: 100%;
+  }
+}
